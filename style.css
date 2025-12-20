@@ -16,4 +16,16 @@ header{
 
 header > h2 {
     padding: 0px 55px;
+    margin-top: -8px;
+}
+
+nav{
+    text-align: right;
+    display: inline;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
 }
