@@ -1,0 +1,38 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: white;
+    width: 100%;
+    height: 90vh;
+}
+
+header{
+    color: rgb(196, 196, 3);
+    padding: 10px;
+    font-size: 1em;
+}
+
+header h1{
+    display: inline;
+}
+
+#burguer{
+    background-color: red;
+    display: block;
+    text-align: right;
+}
+
+menu#conteiner{
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: end;
+    background-color: red;
+}
+
+div#item{
+    background-color: aqua;
+}
