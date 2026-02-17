@@ -10,7 +10,7 @@ body{
     height: 90vh;
     background: url(../img/fundo.png) center center no-repeat;
     background-size: cover;
-    
+    background-attachment: fixed;
 }
 
 header{
